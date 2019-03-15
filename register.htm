@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Web Site </title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+<a href="index.html" ><b>HOMEPAGE</b></a>
+<a href="films.html" ><b>FILMS</b></a>
+<a href="books.htm" ><b>BOOK</b></a>
+<a href="musics.html"><b>MUSICS</b></a>
+<a href="usefullinks.htm" ><b>USEFUL LINKS</b></a>
+<a href="contactme.htm" ><b>CONTACT ME</b></a>
+<a href="register.htm" ><b>REGISTER</b></a>
+		<br>
+		<br>
+		<div align="center">
+			<br> 
+<br>
+<div align="center">
+		<form> 
+			<label for="UN"> Username :</<label>
+<input type="text" id="UN" name="Username" value="username" autofocus>
+<br>
+<label for ="PA"> Password : </label>
+<input type="password" id="PA" name="Password" value="password" autofocus=""> <br>	
+
+    	
+    		 <label for="theEmail"> Email: </label>
+                        <input type="email" name="email" id="theEmail"> <br>
+
+<label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <h4> Department? </h4>
+			<select name="department">
+                <option value="ce">Computer Engineering</option>
+                <option value="eee">Electrical Electronical Engineering</option>
+                <option value="p">Pharmacy</option>
+            </select>
+                      <h4> Gender? </h4>
+			<select name="gender">
+                <option value="m">Man</option>
+                <option value="w">Women</option>
+                <option value="o">Other</option>
+            </select>
+<br>
+                           <label for="AboutMe">About Me:</label>
+            <input type="text" min="10" max="70" step="10" value="70" id="TheAbout" name="About" required><br>
+
+            	<form method="post" enctype="multipart/form­data"
+			  	action="test.php">
+			  
+			
+			    <input type="file" name="select file">
+			    
+			    <input type="submit" value="Upload">
+		</form>
+		<br>
+		  <label for="theCheckboxes"> Mark Your Interest : </label> <br>
+                        <input type="checkbox" name="Autos and Vehicles" id="theCheckboxes">Autos and Vehicles <br>
+                        <input type="checkbox" name="Education" value="education" id="theCheckboxes">Education <br>
+                          <label for="theCheckboxes"> </label> <br>
+                        <input type="checkbox" name="Politics" id="theCheckboxes"> Politics <br>
+                        <input type="checkbox" name="Science and Technology" value="science" id="theCheckboxes">Science and Technology <br>
+
+                        <input type="checkbox" name="Comedy" value="science" id="theCheckboxes">Comedy <br>
+                        <input type="checkbox" name="Films" value="films" id="theCheckboxes">Films and Animations <br>
+                        <input type="checkbox" name="Music" value="musics" id="theCheckboxes">Music <br>
+                             <input type="checkbox" name="Pets and Animals" value="mpets" id="theCheckboxes">Pets and Animals <br>
+                                  <input type="checkbox" name="Sports" value="sports" id="theCheckboxes">Sports<br>
+            <button onclick="myFunction()">Submit</button>
+            <script>
+function myFunction() {
+  alert("Thanks for registration!");
+}
+</script>
+<input type="reset" value="Reset" />
+    	</div>
+    
